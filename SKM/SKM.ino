@@ -76,9 +76,9 @@ void setup() {
   delay(2000);
 
   // Initialize HX711 and load calibration factors
-  scale1.begin(DOUT1, CLK1); scale1.set_scale(CALIBRATION_FLOUR); scale1.tare();
-  scale2.begin(DOUT2, CLK2); scale2.set_scale(CALIBRATION_VEGETABLE); scale2.tare();
-  scale3.begin(DOUT3, CLK3); scale3.set_scale(CALIBRATION_CHICKEN); scale3.tare();
+  scale1.begin(DOUT1, CLK1); scale1.set_scale(695086.991); scale1.tare();
+  scale2.begin(DOUT2, CLK2); scale2.set_scale(198152.99); scale2.tare();
+  scale3.begin(DOUT3, CLK3); scale3.set_scale(165379.544); scale3.tare();
   scale4.begin(DOUT4, CLK4); scale4.set_scale(101459.395); scale4.tare();
 
   // Ultrasonic pins
